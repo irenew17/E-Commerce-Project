@@ -26,10 +26,24 @@ const figures = [
         type: "Prize",
         year: 2023,
         limited: false,
-    }
+    },
+    {
+        name: "Hatsune Miku Fashion Series Fancy Taito",
+        price: 35,
+        type: "Prize",
+        year: 2025,
+        limited: false,
+    },
 ]
 
-console.log(figures[1].limited);
+function addToCart(item) {
+    const cart = [];
+    let item = figures.name;
+    cart.push(item);
+    return cart;
+}
+
+console.log(addToCart("Hatsune Miku - 1/7 - Gao Shan Liu Shui Ver"));
 
 // name: ,
 // price: ,
