@@ -44,7 +44,7 @@ const figures = {
 //     return cart;
 // }
 
-console.log(figures.FSFT);
+console.log(figures[0].GSLS.name);
 
 // name: ,
 // price: ,
