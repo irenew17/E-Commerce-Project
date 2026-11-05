@@ -44,10 +44,24 @@ const figures = {
 //     return cart;
 // }
 
-console.log(figures[0].GSLS.name);
-
 // name: ,
 // price: ,
 // type: ,
 // year: ,
 // limited: ,
+const box = document.querySelector(".box");
+
+function inject(item) {
+  const container = document.querySelector(".box");
+  figures.forEach(element => {
+    container.insertAdjacentHTML(
+    "beforeend",
+    `<div class="card">
+      <h2 class="card-header">`${}`</h2>
+    </div>`,
+  );
+  });
+
+}
+inject("Mason");
+

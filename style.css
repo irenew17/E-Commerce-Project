@@ -1,0 +1,14 @@
+html,
+body,
+* {
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(241, 253, 228);
+}
+#figures {
+  font-size: 8rem;
+}
