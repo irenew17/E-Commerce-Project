@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
 html,
 body,
 * {
@@ -9,6 +11,19 @@ body,
 body {
   background-color: rgb(241, 253, 228);
 }
+#catalog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100vw;
+}
 #figures {
   font-size: 8rem;
+  font-family: "Laila", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 20rem;
+  color: rgb(40, 143, 129);
 }
