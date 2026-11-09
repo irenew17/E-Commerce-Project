@@ -24,6 +24,19 @@ body {
   font-family: "Laila", serif;
   font-weight: 700;
   font-style: normal;
-  margin: 20rem;
+  margin: 10rem;
   color: rgb(40, 143, 129);
+}
+.product {
+  width: 30vw;
+  height: 50vh;
+  background-color: hotpink;
+  margin: 10rem;
+}
+.product-header {
+  font-size: 4rem;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }

@@ -52,16 +52,14 @@ const figures = {
 const box = document.querySelector(".box");
 
 function inject(item) {
-  const container = document.querySelector("#");
-  figures.forEach(element => {
-    container.insertAdjacentHTML(
-    "beforeend",
-    `<div class="product">
-      <h2 class="product-header">`${figures}`</h2>
+  const product = document.querySelector(".product");
+  figures.forEach((name) => {
+    product.insertAdjacentHTML(
+      "beforeend",
+      `<div class="product">
+      <h2 class="product-header">hello</h2>
     </div>`,
-  );
+    );
   });
-
 }
 inject("");
-
