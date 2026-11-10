@@ -27,11 +27,20 @@ body {
   margin: 10rem;
   color: rgb(40, 143, 129);
 }
+#product-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .product {
   width: 30vw;
   height: 50vh;
   background-color: hotpink;
-  margin: 10rem;
+  margin: 2rem;
 }
 .product-header {
   font-size: 4rem;
