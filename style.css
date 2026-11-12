@@ -9,7 +9,7 @@ body,
   padding: 0;
 }
 body {
-  background-color: rgb(241, 253, 228);
+  background-color: rgb(215, 245, 238);
 }
 #catalog {
   display: flex;
@@ -37,15 +37,25 @@ body {
   flex-wrap: wrap;
 }
 .product {
-  width: 30vw;
+  width: 25vw;
   height: 50vh;
-  background-color: hotpink;
-  margin: 2rem;
+  background-color: #e681b3;
+  margin: 3rem;
+  border-radius: 12px;
 }
 .product-header {
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 500;
   font-style: normal;
+  color: #77254e;
+  margin: 1rem;
+}
+.btn {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 1rem;
 }

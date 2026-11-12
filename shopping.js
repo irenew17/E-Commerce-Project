@@ -34,6 +34,83 @@ const figures = [
     year: 2025,
     limited: false,
   },
+  {
+    name: "Flower Fairy Clover",
+    price: 33,
+    type: "Noodle Stopper",
+    year: 2025,
+    limited: false,
+  },
+  {
+    name: "Sakura Miku Coreful",
+    price: 42,
+    type: "Prize",
+    year: 2024,
+    limited: true,
+  },
+  {
+    name: "World Is Mine",
+    price: 59,
+    type: "Nendoroid",
+    year: 2024,
+    limited: false,
+  },
+  // {
+  //   name: "",
+  //   price: ,
+  //   type: "",
+  //   year: ,
+  //   limited: ,
+  // },
+  // {
+  //   name: "",
+  //   price: ,
+  //   type: "",
+  //   year: ,
+  //   limited: ,
+  // },
+  // {
+  //   name: "",
+  //   price: ,
+  //   type: "",
+  //   year: ,
+  //   limited: ,
+  // },
+  // {
+  //   name: "",
+  //   price: ,
+  //   type: "",
+  //   year: ,
+  //   limited: ,
+  // },
+  // {
+  //   name: "",
+  //   price: ,
+  //   type: "",
+  //   year: ,
+  //   limited: ,
+  // },
+  // {
+  //   name: "",
+  //   price: ,
+  //   type: "",
+  //   year: ,
+  //   limited: ,
+  // },
+  // {
+  //   name: "",
+  //   price: ,
+  //   type: "",
+  //   year: ,
+  //   limited: ,
+  // },
+  // {
+  //   name: "",
+  //   price: ,
+  //   type: "",
+  //   year: ,
+  //   limited: ,
+  // },
 ];
 
 // function addToCart(item) {
@@ -56,9 +133,10 @@ function inject(figure) {
     catalog.insertAdjacentHTML(
       "beforeend",
       `<div class="product">
-      <h2 class="product-header">${figures.name}</h2>
+      <h2 class="product-header">${figure.name}</h2>
+      <button class="btn">Add to cart</button>
     </div>`,
     );
   });
 }
-inject("Gao Shan Liu Shui");
+inject();
