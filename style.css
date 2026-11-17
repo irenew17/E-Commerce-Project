@@ -26,6 +26,7 @@ body {
   font-style: normal;
   margin: 10rem;
   color: rgb(40, 143, 129);
+  text-shadow: 3px 3px 0px rgb(14, 90, 80);
 }
 #product-list {
   display: flex;
@@ -49,7 +50,7 @@ body {
   font-size: 3rem;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
   color: #77254e;
   margin: 1rem;
@@ -57,12 +58,15 @@ body {
 #btn {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   font-size: 1.8rem;
   margin: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 8px;
+  cursor: pointer;
+  color: rgb(14, 90, 80);
+  border: 2px solid rgb(40, 143, 129);
 }
 #details {
   display: flex;
@@ -70,4 +74,13 @@ body {
   align-items: flex-start;
   align-content: center;
   flex-direction: row;
+}
+.text {
+  margin: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: #77254e;
 }
