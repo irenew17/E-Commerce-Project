@@ -84,3 +84,7 @@ body {
   font-size: 1.8rem;
   color: #77254e;
 }
+#image {
+  width: 100vw;
+  height: 100vh;
+}

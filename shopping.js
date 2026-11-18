@@ -5,6 +5,7 @@ const figures = [
     type: "Scale",
     year: 2023,
     limited: false,
+    img: "Gao Shan Liu Shui.jpg",
   },
   {
     name: "Magical Mirai 2024",
@@ -12,6 +13,7 @@ const figures = [
     type: "Scale",
     year: 2025,
     limited: false,
+    img: "Magical Mirai 2024.jpg",
   },
   {
     name: "Snow Miku Grand Voyage",
@@ -19,6 +21,7 @@ const figures = [
     type: "Figma",
     year: 2022,
     limited: true,
+    img: ,
   },
   {
     name: "Hatsune Miku x Cinnamoroll",
@@ -26,6 +29,7 @@ const figures = [
     type: "Prize",
     year: 2023,
     limited: false,
+    img: ,
   },
   {
     name: "Fashion Series Fancy",
@@ -33,6 +37,7 @@ const figures = [
     type: "Prize",
     year: 2025,
     limited: false,
+    img: ,
   },
   {
     name: "Flower Fairy Clover",
@@ -40,6 +45,7 @@ const figures = [
     type: "Noodle Stopper",
     year: 2025,
     limited: false,
+    img: ,
   },
   {
     name: "Sakura Miku Coreful",
@@ -47,6 +53,7 @@ const figures = [
     type: "Prize",
     year: 2024,
     limited: true,
+    img: ,
   },
   {
     name: "World Is Mine",
@@ -54,6 +61,7 @@ const figures = [
     type: "Nendoroid",
     year: 2024,
     limited: false,
+    img: ,
   },
   {
     name: "100th Adventure",
@@ -61,6 +69,7 @@ const figures = [
     type: "Nendoroid",
     year: 2025,
     limited: false,
+    img: ,
   },
   {
     name: "Snow Miku 2020",
@@ -68,6 +77,7 @@ const figures = [
     type: "Figma",
     year: 2020,
     limited: true,
+    img: ,
   },
   {
     name: "Racing Miku 2015",
@@ -75,6 +85,7 @@ const figures = [
     type: "Figma",
     year: 2015,
     limited: true,
+    img: ,
   },
   {
     name: "Greatest Idol",
@@ -82,6 +93,7 @@ const figures = [
     type: "Scale",
     year: 2011,
     limited: false,
+    img: ,
   },
   {
     name: "Sakura Fairy",
@@ -89,6 +101,7 @@ const figures = [
     type: "Scale",
     year: 2021,
     limited: false,
+    img: ,
   },
   {
     name: "Citrus Miku",
@@ -96,6 +109,7 @@ const figures = [
     type: "Noodle Stopper",
     year: 2026,
     limited: false,
+    img: ,
   },
   {
     name: "3rd Season Winter",
@@ -103,6 +117,7 @@ const figures = [
     type: "Prize",
     year: 2021,
     limited: false,
+    img: ,
   },
   {
     name: "Original Summer Clothes",
@@ -110,6 +125,7 @@ const figures = [
     type: "Prize",
     year: 2019,
     limited: false,
+    img: ,
   },
   {
     name: "Miku Expo 2021",
@@ -117,6 +133,7 @@ const figures = [
     type: "Nendoroid",
     year: 2022,
     limited: false,
+    img: ,
   },
   {
     name: "Magical Mirai 2016",
@@ -124,6 +141,7 @@ const figures = [
     type: "Nendoroid",
     year: 2017,
     limited: false,
+    img: ,
   },
   {
     name: "Birthday 2024 Flower",
@@ -131,6 +149,7 @@ const figures = [
     type: "Prize",
     year: 2024,
     limited: true,
+    img: ,
   },
   {
     name: "Snow Miku Sky Town",
@@ -138,6 +157,7 @@ const figures = [
     type: "Noodle Stopper",
     year: 2025,
     limited: false,
+    img: ,
   },
   {
     name: "Meihua Sannong",
@@ -145,6 +165,7 @@ const figures = [
     type: "Scale",
     year: 2026,
     limited: false,
+    img: ,
   },
 ];
 
@@ -162,6 +183,7 @@ function inject(figure) {
       `<div class="product">
       <h2 id="product-header">${figure.name}</h2>
       <div id="details">
+      <img id="image" src=${figure.img} alt=image of figure>
       <h3 id="type" class="text">${figure.type}</h3>
       <h3 id="year" class="text">${figure.year}</h3>
       <h3 id="price" class="text">$${figure.price}.00</h3>
