@@ -5,7 +5,7 @@ const figures = [
     type: "Scale",
     year: 2023,
     limited: false,
-    img: "Gao Shan Liu Shui.jpg",
+    img: "images/GaoShanLiuShui.jpg",
   },
   {
     name: "Magical Mirai 2024",
@@ -13,7 +13,7 @@ const figures = [
     type: "Scale",
     year: 2025,
     limited: false,
-    img: "Magical Mirai 2024.jpg",
+    img: "images/MagicalMirai2024.webp",
   },
   {
     name: "Snow Miku Grand Voyage",
@@ -21,7 +21,7 @@ const figures = [
     type: "Figma",
     year: 2022,
     limited: true,
-    img: ,
+    img: "images/SnowMikuGrandVoyage.webp",
   },
   {
     name: "Hatsune Miku x Cinnamoroll",
@@ -29,7 +29,7 @@ const figures = [
     type: "Prize",
     year: 2023,
     limited: false,
-    img: ,
+    img: "images/HatsuneMikuxCinnamoroll.webp",
   },
   {
     name: "Fashion Series Fancy",
@@ -37,7 +37,7 @@ const figures = [
     type: "Prize",
     year: 2025,
     limited: false,
-    img: ,
+    img: "images/FashionSeriesFancy.webp",
   },
   {
     name: "Flower Fairy Clover",
@@ -45,7 +45,7 @@ const figures = [
     type: "Noodle Stopper",
     year: 2025,
     limited: false,
-    img: ,
+    img: "images/FlowerFairyClover.png",
   },
   {
     name: "Sakura Miku Coreful",
@@ -53,7 +53,7 @@ const figures = [
     type: "Prize",
     year: 2024,
     limited: true,
-    img: ,
+    img: "images/SakuraMikuCoreful.webp",
   },
   {
     name: "World Is Mine",
@@ -61,7 +61,7 @@ const figures = [
     type: "Nendoroid",
     year: 2024,
     limited: false,
-    img: ,
+    img: "images/WorldIsMine.webp",
   },
   {
     name: "100th Adventure",
@@ -69,7 +69,7 @@ const figures = [
     type: "Nendoroid",
     year: 2025,
     limited: false,
-    img: ,
+    img: "images/100thAdventure.webp",
   },
   {
     name: "Snow Miku 2020",
@@ -77,7 +77,7 @@ const figures = [
     type: "Figma",
     year: 2020,
     limited: true,
-    img: ,
+    img: "images/SnowMiku2020.webp",
   },
   {
     name: "Racing Miku 2015",
@@ -85,7 +85,7 @@ const figures = [
     type: "Figma",
     year: 2015,
     limited: true,
-    img: ,
+    img: "images/RacingMiku2015",
   },
   {
     name: "Greatest Idol",
@@ -93,7 +93,7 @@ const figures = [
     type: "Scale",
     year: 2011,
     limited: false,
-    img: ,
+    img: "images/",
   },
   {
     name: "Sakura Fairy",
@@ -101,7 +101,7 @@ const figures = [
     type: "Scale",
     year: 2021,
     limited: false,
-    img: ,
+    img: "images/",
   },
   {
     name: "Citrus Miku",
@@ -109,7 +109,7 @@ const figures = [
     type: "Noodle Stopper",
     year: 2026,
     limited: false,
-    img: ,
+    img: "images/",
   },
   {
     name: "3rd Season Winter",
@@ -117,7 +117,7 @@ const figures = [
     type: "Prize",
     year: 2021,
     limited: false,
-    img: ,
+    img: "images/",
   },
   {
     name: "Original Summer Clothes",
@@ -125,7 +125,7 @@ const figures = [
     type: "Prize",
     year: 2019,
     limited: false,
-    img: ,
+    img: "images/",
   },
   {
     name: "Miku Expo 2021",
@@ -133,7 +133,7 @@ const figures = [
     type: "Nendoroid",
     year: 2022,
     limited: false,
-    img: ,
+    img: "images/",
   },
   {
     name: "Magical Mirai 2016",
@@ -141,7 +141,7 @@ const figures = [
     type: "Nendoroid",
     year: 2017,
     limited: false,
-    img: ,
+    img: "images/",
   },
   {
     name: "Birthday 2024 Flower",
@@ -149,7 +149,7 @@ const figures = [
     type: "Prize",
     year: 2024,
     limited: true,
-    img: ,
+    img: "images/",
   },
   {
     name: "Snow Miku Sky Town",
@@ -157,7 +157,7 @@ const figures = [
     type: "Noodle Stopper",
     year: 2025,
     limited: false,
-    img: ,
+    img: "images/",
   },
   {
     name: "Meihua Sannong",
@@ -165,7 +165,7 @@ const figures = [
     type: "Scale",
     year: 2026,
     limited: false,
-    img: ,
+    img: "images/",
   },
 ];
 
