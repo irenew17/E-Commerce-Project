@@ -85,7 +85,7 @@ const figures = [
     type: "Figma",
     year: 2015,
     limited: true,
-    img: "images/RacingMiku2015",
+    img: "images/RacingMiku2015.webp",
   },
   {
     name: "Greatest Idol",
@@ -93,7 +93,7 @@ const figures = [
     type: "Scale",
     year: 2011,
     limited: false,
-    img: "images/",
+    img: "images/GreatestIdol.webp",
   },
   {
     name: "Sakura Fairy",
@@ -101,7 +101,7 @@ const figures = [
     type: "Scale",
     year: 2021,
     limited: false,
-    img: "images/",
+    img: "images/SakuraFairy.jpg",
   },
   {
     name: "Citrus Miku",
@@ -109,7 +109,7 @@ const figures = [
     type: "Noodle Stopper",
     year: 2026,
     limited: false,
-    img: "images/",
+    img: "images/CitrusMiku.webp",
   },
   {
     name: "3rd Season Winter",
@@ -117,7 +117,7 @@ const figures = [
     type: "Prize",
     year: 2021,
     limited: false,
-    img: "images/",
+    img: "images/3rdSeasonWinter.webp",
   },
   {
     name: "Original Summer Clothes",
@@ -125,7 +125,7 @@ const figures = [
     type: "Prize",
     year: 2019,
     limited: false,
-    img: "images/",
+    img: "images/OriginalSummerClothes.jpg",
   },
   {
     name: "Miku Expo 2021",
@@ -133,7 +133,7 @@ const figures = [
     type: "Nendoroid",
     year: 2022,
     limited: false,
-    img: "images/",
+    img: "images/MikuExpo2021.webp",
   },
   {
     name: "Magical Mirai 2016",
@@ -141,7 +141,7 @@ const figures = [
     type: "Nendoroid",
     year: 2017,
     limited: false,
-    img: "images/",
+    img: "images/MagicalMirai2016.webp",
   },
   {
     name: "Birthday 2024 Flower",
@@ -149,7 +149,7 @@ const figures = [
     type: "Prize",
     year: 2024,
     limited: true,
-    img: "images/",
+    img: "images/Birthday2024Flower.webp",
   },
   {
     name: "Snow Miku Sky Town",
@@ -157,7 +157,7 @@ const figures = [
     type: "Noodle Stopper",
     year: 2025,
     limited: false,
-    img: "images/",
+    img: "images/SnowMikuSkyTown.webp",
   },
   {
     name: "Meihua Sannong",
@@ -165,7 +165,7 @@ const figures = [
     type: "Scale",
     year: 2026,
     limited: false,
-    img: "images/",
+    img: "images/MeihuaSannong.webp",
   },
 ];
 
